@@ -1,0 +1,90 @@
+body{
+    background-image: url(fundo.jpg);
+    background-position-y: -600px;
+    background-position-x: -100px;
+}
+section{
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;   
+}
+
+.bloco {
+    width: 36vw;
+    height: 80vh;
+    background: rgba(255, 255, 255, 0.336);
+    border-radius: 15px;
+}
+
+.icon{
+    filter: opacity(80%);
+    position: relative;
+    top: -60px;
+    left: -180px;
+    float : right;
+    max-width: 150px;
+    min-width: 150px;
+    border-radius: 200px;
+    margin-left: 20%;
+}
+
+.sing{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    left: 130px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.591);
+
+}
+
+#user{
+    padding: 10px;
+    width: 400px;
+    height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    border-radius: 7px;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#senha{
+    padding: 10px;
+    width: 400px;
+    height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    border-radius: 7px;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    left: 50px;
+}
+/*122451*/
+
+#loginbtn{
+    background-color: cornflowerblue;
+    padding: 10px;
+    width: 400px;
+    height: 75px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    border-radius: 7px;
+    align-items: center;
+    position: relative;
+    top: 160px;
+    left: 50px;
+}
