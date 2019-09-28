@@ -1,5 +1,5 @@
 body{
-    background-image: url(fundo.jpg);
+    background-image: url(/Login/site-master/imgs/fundo.jpg);
     background-position-y: -600px;
     background-position-x: -100px;
 }
@@ -25,7 +25,7 @@ section{
 }
 
 .icon{
-    filter: opacity(80%);
+    filter: opacity(85%);
     position: relative;
     top: -60px;
     left: -180px;
