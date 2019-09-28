@@ -1,0 +1,70 @@
+body{
+    background-image: url(fundo.jpg);
+    background-position-x: -1000px;
+    background-position-y: -800px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    margin: 30px 30px 0px 0px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 5px;
+    float: right;
+    margin-left: 8px; 
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 6px;
+    border-radius: 15px;
+}
+.menu ul li a:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    transition: 0.6s ease;
+}
+.fix{
+    clear: both;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: -60px;
+    margin-left: 40px;
+    font-family: 'Vibes', cursive;
+    color: #fff;
+}
+.main .c1 h1{
+    width: 500px;
+    border: 3px solid #fff;
+    margin-top: 200px;
+    margin-left: 380px;
+    font-size: 50px;
+    color: #fff; 
+    text-align: center; 
+}
+.main p{
+    color: #fff;
+    text-align: center;
+}
+.rodape {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 2   0px;
+}
+.rodape p{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.445);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.192);
+}
